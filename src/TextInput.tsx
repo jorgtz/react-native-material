@@ -325,7 +325,7 @@ const TextInput: React.FC<TextInputProps> = React.forwardRef(
                   {
                     color: focusAnimation.interpolate({
                       inputRange: [0, 1],
-                      outputRange: [surfaceScale(0.87).hex(), palette.main],
+                      outputRange: [surfaceScale(0.4).hex(), palette.main],
                     }),
                     fontSize: activeAnimation.interpolate({
                       inputRange: [0, 1],
